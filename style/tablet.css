@@ -1,0 +1,25 @@
+/* search area */
+.search-content form{
+    width: 90vw;
+    margin: auto;
+
+}
+/* about section */
+.about-section {
+    flex-wrap: wrap;
+}
+.about-content{
+    padding: 2rem;
+}
+.more-btn{
+    width: 50%;
+}
+/* category section */
+.categories-section {
+    width: 95vw;
+    margin: auto;
+}
+/* footer section */
+.main-footer{
+        height:100%;
+}

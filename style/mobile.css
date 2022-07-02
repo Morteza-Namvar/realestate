@@ -1,0 +1,132 @@
+
+/* Navbar */
+#header {
+    background-size: 100%;
+    position: relative;
+}
+.main-menu-btn{
+    width: 100vw;
+    text-align: center;
+    border: none
+}
+
+.main-menu-btn:hover{
+    background: #eeeeee;
+    transition: all 1s;
+    border: none;
+}
+.navbar-brand{
+    display: none;
+}
+.top-bar {
+    padding:5px;
+}
+/* slider */
+.slider-content {
+    padding: 40px;
+}
+/* search area */
+
+.search-area div:first-child{
+    margin-right: 20px;
+}
+.search-content form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90vw;
+    align-items: center;  
+}
+.search-content form input{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.search-content form select{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.search-content form button{
+    width: 100%;
+}
+/* about section */
+.about-section{
+    flex-wrap: wrap;
+}
+.about-content{
+    margin-top: 5rem;
+    width: 100%;
+    order: 1;
+}
+.about-img {
+    order: 2;
+}
+.about-img img{
+    width: 95vw;
+}
+.more-btn{
+    padding: 1rem;
+    width: 70%;
+}
+/* project section */
+.projects{
+    display: block;
+    width: 100%;
+
+}
+.project {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+/* categories */
+.categories{
+    display: block;
+    width: 85%;
+    height: 100%;
+}
+.categories div{
+    margin-bottom: 1rem;
+    height: 250px;
+}
+
+/* services section */
+.services-section{
+    padding: 1rem;
+    text-align: center;
+}
+.services{
+    display: block;    
+}
+.service{
+    padding: 1rem;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+/* personals */
+.personals{
+    display: block;
+}
+.personal-section{
+    padding: 1rem;
+}
+.personal{
+    margin-bottom: 2rem;
+}
+/* articles */
+.articles{
+    display: block;
+}
+/* footer */
+.main-footer{
+    height: 100%;
+}
+.footer-content{
+    display: block;
+}
+.footer-logo{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
